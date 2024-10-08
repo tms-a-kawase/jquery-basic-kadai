@@ -1,4 +1,4 @@
-$(Function = () => {
+$(function() {
     $(window).on('load scroll', (e) => {
         if (e.type === 'load') {
             console.log('loadイベントが発生しました');
