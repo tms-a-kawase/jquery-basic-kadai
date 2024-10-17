@@ -12,7 +12,6 @@ $('[name="hobby"]').on('change', function () {
 });
 
 $(function () {
-
     $('[name="username"]').on("input", function () {
         let input = $(this).val();
 
